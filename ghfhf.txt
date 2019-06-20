@@ -1,0 +1,12 @@
+backgroundImage: 'url(\'{this.state.item.imglink}\')', backgroundPosition: 'center',
+
+
+
+DIV -- 
+backgroundColor: "#cdcec6", width: '100%', height: '116.99px', margin: '0', display: 'inline-block', postion: 'relative'
+
+
+IMG--
+ maxHeight: '116.99px',maxWidth: '100%',width: 'auto',height: 'auto',
+                            position: 'absolute',top: '0',bottom: '0', left: '0',right: '0',margin: 'auto'
+
