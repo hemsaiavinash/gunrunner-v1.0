@@ -54,9 +54,9 @@ class Home extends Component {
         ];
 
         this.state={
-            items:items,
-            cartItems:[],
-            orderTotal:0
+            items:items, //
+            cartItems:[], //Contains the list of the items in the cart
+            orderTotal:0 //Used to calculate the order total during checkout
         }
     }
 
