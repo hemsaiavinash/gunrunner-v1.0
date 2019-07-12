@@ -6,6 +6,12 @@ import Checkout from './Checkout';
 
 class Home extends Component {
     constructor(){
+        /* 
+        Parts of Constructor:
+        1. super() --> Parent inheritance;
+        2. items[] list
+        3. this.state --> Contains the state of the page upon load.
+        */
         super();
 
         var items=[
@@ -53,10 +59,11 @@ class Home extends Component {
             }
         ];
 
+        /* ":" operator is used to set state.  */
         this.state={
-            items:items, //
-            cartItems:[], //Contains the list of the items in the cart
-            orderTotal:0 //Used to calculate the order total during checkout
+            items:items, //this.items : items
+            cartItems:[], //this.cart : empty cart []
+            orderTotal:0 //this.orderTotal : orderTotal is 0
         }
     }
 
